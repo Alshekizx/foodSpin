@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3223a3b45c.js" crossorigin="anonymous"></script>
+    
+    <title>animation</title>
+  </head>
+  <body>
+    <header>
+      <main class="topnav">
+        <div class="logo" ><img src="img/logo.png" alt=""></div>
+        <nav>
+          <ul class="navlist">
+            <li>Breakfast</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+          </ul>
+        </nav>
+        <div class="shopcart"><img src="img/shopingcart.png" alt=""></div>
+      </main>
+    </header>
+
+    <section>
+      <main class="main-body">
+
+
+        <div class="firstContent" id="firstContent">
+          <div class="NumOne " id="NumOne">
+          <span>$32</span>
+          <h1>Green Goddess Chicken Salad</h1>
+          <p>It is a non vegetarian salad which consists of the green 
+            goddess dressing mixed with chicken, peppers, olives and 
+            celery. </p>
+            <button type="button">ORDER NOW</button>
+          </div>
+
+          <div class="Numtwo" id="Numtwo">
+            <span>$35</span>
+            <h1>Asian Cucumber Salad</h1>
+            <p>Asian Cucumber Salad Recipe made with crunchy cucumber, 
+              onion, rice wine vinegar, and a few secret ingredients!</p>
+              <button type="button">ORDER NOW</button>
+            </div>
+
+        </div>
+
+
+        <div class="picture">
+
+          <div id="shape" class="shape">
+
+            <div class="circle" id="circle">
+              <div class="imgpic"  style="--i:1"> <img class="imgpicc" id="imgpicc1" src="img/1.png" alt=""> </div>
+              <div class="imgpic"  style="--i:2"> <img class="imgpicc" id="imgpicc2" src="img/2-1.png" alt=""> </div>
+              <div class="imgpic"  style="--i:3"> <img class="imgpicc" id="imgpicc3" src="img/03-1.png" alt=""> </div>
+              <div class="imgpic"  style="--i:4"> <img class="imgpicc" id="imgpicc4" src="img/3-2.png" alt=""> </div>
+              <div class="imgpic"  style="--i:5"> <img class="imgpicc" id="imgpicc5" src="img/04.png" alt=""> </div>
+              <div class="imgpic"  style="--i:6"> <img class="imgpicc" id="imgpicc6" src="img/05-2.png" alt=""> </div>
+              <div class="imgpic"  style="--i:7"> <img class="imgpicc" id="imgpicc7" src="img/8-2.png" alt=""> </div>
+              <div class="imgpic"  style="--i:8"> <img class="imgpicc" id="imgpicc8" src="img/9-1.png" alt=""> </div>
+            </div>
+
+          </div>
+          <div class="mainFood " id="mainFood">
+            <img id="mainpic" src="img/2-1.png" alt="">
+            
+          </div>
+         
+        </div>
+      </main>
+    </section>
+          <div onclick = "scaleRotation()" class="downarrowleft" id="downarrowleft">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div onclick = "scaleRotation()" class="downarrowright" id="downarrowright">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
