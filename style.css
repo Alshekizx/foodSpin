@@ -115,9 +115,7 @@ select {
 }
 
 /*main body*/
-body{
-  overflow-x: hidden;
-}
+
 .main-body{
   padding:0 50px ;
   display: flex;
